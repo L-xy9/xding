@@ -148,7 +148,7 @@ const config = {
 
 module.exports = {
   // ...
-  url: 'https://xding-website', // 你的网站URL（刚所创建的github仓库名）
+  url: 'https://l-x-y-xy.github.io/xding-website/', // 你的网站URL（刚所创建的github仓库名）
   baseUrl: '/',
   projectName: 'xding-website', // 刚所创建的github仓库名
   organizationName: 'L-X-Y-XY', // github账户名
