@@ -1,0 +1,60 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+ 
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size:95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* 声明自定义属性 */  
+:root {  
+  --h1-font-size: 29px;  
+  --h2-font-size: 25px;
+  --h3-font-size: 25px;
+  --h4-font-size: 22px;
+  --p-font-size: 18px;
+  --body-font-size: 19px;
+}  
+  
+/* 使用自定义属性来设置H1标签的字体大小 */  
+h1 {font-size: var(--h1-font-size); }
+h2 {font-size: var(--h2-font-size); }
+h3 {font-size: var(--h3-font-size); }
+h4 {font-size: var(--h4-font-size); }
+h5 {font-size: var(--h5-font-size); }
+p {font-size: var(--p-font-size); }
+body {font-size: var(--body-font-size); }
+
+/* 设置导航栏链接的字体大小 */  
+.navbar__link {  
+  font-size: 24px; /* 你可以根据需要调整这个值 */  
+}  
+  
+/* 如果需要调整导航栏其他部分的字体大小，也可以添加相应的规则 */  
+.navbar__brand {  
+  font-size: 26px; /* 例如，调整品牌名称的字体大小 */  
+}
