@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/dingimg.jpg',
 
   // Set the production url of your site here
-  url: ' https://l-xy9.github.io/xding/',
+  url: 'https://l-xy9.github.io/xding/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -149,14 +149,14 @@ const config = {
     }),
 };
 
-/*module.exports = {
+module.exports = {
   // ...
-  url: 'https://l-x-y-xy.github.io/xding-website/', // 你的网站URL（刚所创建的github仓库名）
+  url: 'https://l-xy9.github.io/xding/', // 你的网站URL（刚所创建的github仓库名）
   baseUrl: '/',
-  projectName: 'xding-website', // 刚所创建的github仓库名
-  organizationName: 'L-X-Y-XY', // github账户名
-  deploymentBranch: 'main', // 部署到的分支名
+  projectName: 'xding', // 刚所创建的github仓库名
+  organizationName: 'L-xy9', // github账户名
+  deploymentBranch: 'gh-pages', // 部署到的分支名
   // ...
-};*/
+};
 export default config;
 
