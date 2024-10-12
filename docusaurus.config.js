@@ -13,15 +13,18 @@ const config = {
   favicon: 'img/dingimg.jpg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://xding.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  /*organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus',*/ // Usually your repo name.
+
+  organizationName: 'L-X-Y-XY', // Usually your GitHub org/user name.
+  projectName: 'xding.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -146,7 +149,7 @@ const config = {
     }),
 };
 
-module.exports = {
+/*module.exports = {
   // ...
   url: 'https://l-x-y-xy.github.io/xding-website/', // 你的网站URL（刚所创建的github仓库名）
   baseUrl: '/',
@@ -154,6 +157,6 @@ module.exports = {
   organizationName: 'L-X-Y-XY', // github账户名
   deploymentBranch: 'main', // 部署到的分支名
   // ...
-};
+};*/
 export default config;
 
