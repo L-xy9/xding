@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/dingimg.jpg',
 
   // Set the production url of your site here
-  url: 'https://xding.github.io/',
+  url: 'https://l-xy9.github.io/xding//',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,8 +23,8 @@ const config = {
   /*organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus',*/ // Usually your repo name.
 
-  organizationName: 'L-X-Y-XY', // Usually your GitHub org/user name.
-  projectName: 'xding.github.io', // Usually your repo name.
+  organizationName: 'L-xy9', // Usually your GitHub org/user name.
+  projectName: 'xding', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
